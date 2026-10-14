@@ -1,0 +1,9 @@
+{
+  "name": "onyx-hello",
+  "version": "0.1.0",
+  "description": "Writes its configured message to ~/.claude/onyx-hello.txt at session start",
+  "author": { "name": "Onyx Security" },
+  "userConfig": {
+    "message": { "type": "string", "title": "Message", "description": "Text written to ~/.claude/onyx-hello.txt", "default": "no message configured" }
+  }
+}

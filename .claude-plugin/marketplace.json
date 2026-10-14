@@ -1,0 +1,8 @@
+{
+  "name": "onyx-poc",
+  "owner": { "name": "Onyx Security" },
+  "description": "Onyx POC marketplace for testing Claude Code mod distribution",
+  "plugins": [
+    { "name": "onyx-hello", "source": "./plugins/onyx-hello", "description": "Writes its configured message to ~/.claude/onyx-hello.txt at session start" }
+  ]
+}
